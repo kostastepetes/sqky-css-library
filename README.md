@@ -95,7 +95,7 @@ Demo Website:
   
   * npm
   ```sh
-  npm install gulp-sass sass --save-dev
+  npm install gulp gulp-sass sass --save-dev
   ```
   
 
