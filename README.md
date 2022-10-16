@@ -95,7 +95,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/kostastepetes/sqky-css-library.git
    ```
 2. Install NPM packages
    ```sh
