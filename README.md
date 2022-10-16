@@ -11,7 +11,7 @@
     <img src="img/logo.png" alt="Logo" width="300" height="300">
   </a>
 
-  <h3 align="center">SQKY</h3>
+  <h3 align="center">sqky.</h3>
 
   <p align="center">
     ✨ sqky is a "squeaky clean" CSS library for elegant and efficient UIs made with SASS.
