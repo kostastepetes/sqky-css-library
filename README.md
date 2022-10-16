@@ -58,7 +58,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+SQKY is a "squeaky clean" CSS library for elegant and efficient UIs made with SASS. It's an Open Source Project so if you are a front-of-the-frontend developer, a CSS enthusiast or just passionate about building stylish UIs...feel free to contribute
 
+Documentation Website: 
+
+[![Product Name Screen Shot][product-screenshot]](https://github.com/kostastepetes/sqky-css-library/blob/main/index.html)
+
+Demo Website: 
+
+[![Product Name Screen Shot][product-screenshot2]](https://github.com/kostastepetes/sqky-css-library/blob/main/homepage.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +179,8 @@ Project Link: [https://github.com/kostastepetes/sqky-css-library](https://github
 [issues-url]: https://github.com/kostastepetes/sqky-css-library/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kostas-tepetes
-[product-screenshot]: img/screenshot.png
+[product-screenshot]: img/screenshot_docs.png
+[product-screenshot2]: img/screenshot_demo.png
 [Sass]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
 [Sass-url]: https://sass-lang.com/
 [Gulp]: https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white
