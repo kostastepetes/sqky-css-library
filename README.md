@@ -131,8 +131,10 @@ _For more examples, please refer to the [Documentation](https://github.com/kosta
 ## Roadmap
 
 - [x] Add README
-- [ ] Add Additional Examples
+- [x] Add Animations
 - [ ] Add more utilities
+- [ ] Add Additional Examples
+
 
 See the [open issues](https://github.com/kostastepetes/sqky-css-library/issues) for a full list of proposed features (and known issues).
 
