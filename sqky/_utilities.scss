@@ -157,6 +157,16 @@ $utilities: (
       "xl": $font-size-xl,
       "xxl": $font-size-xxl
     )
+  ),
+  "z-index": (
+    "prefix": "z",
+    "values": (
+      "1": 10,
+      "2": 25,
+      "3": 50,
+      "4": 75,
+      "5": 100
+    )
   )
 );
 
