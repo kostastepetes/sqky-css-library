@@ -134,6 +134,7 @@ _For more examples, please refer to the [Documentation](https://github.com/kosta
 - [x] Add Animations
 - [ ] Add more utilities
 - [ ] Add Additional Examples
+- [ ] Create npm library
 
 
 See the [open issues](https://github.com/kostastepetes/sqky-css-library/issues) for a full list of proposed features (and known issues).
