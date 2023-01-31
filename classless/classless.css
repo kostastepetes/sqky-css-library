@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  a:link {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.5s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: black;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s ease;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul, ol {
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+  
+  li {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  img {
+  max-width: auto;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  object-fit: cover;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  form {
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  label, input, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  label[for=newsletter] {
+      display: inline-block;
+      width: 200px;
+      text-align: left;
+      margin-right: 10px;
+  }
+  
+  input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  header, footer, nav, article, section, aside {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid blue;
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  
+  code {
+    background-color: #f9f9f9;
+    padding: 2px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 18px;
+    }
+  
+    form {
+      width: 90%;
+    }
+  }
+  
