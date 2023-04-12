@@ -6,6 +6,7 @@
 @import 'base';
 @import 'breakpoints';
 @import 'grid';
+@import 'labels';
 
 // colors
 @import "colors";
@@ -19,6 +20,8 @@
 //@import 'components/avatars';
 @import 'components/dropdown';
 @import 'components/breadcrumbs';
+@import 'components/codes';
+@import 'components/modals';
 
 // utilities (margin, padding, opacity, etc)
 @import 'utilities';
