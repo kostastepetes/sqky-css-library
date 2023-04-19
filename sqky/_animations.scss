@@ -61,3 +61,146 @@
     transform: translateY(0);
   }
 }
+
+@keyframes rollOutRight {
+  from {
+    transform: translate3d(0, 0, 0) rotate(-360deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(200%, 0, 0) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rollOutLeft {
+  from {
+    transform: translate3d(0, 0, 0) rotate(360deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(-200%, 0, 0) rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes hopIn {
+  from {
+    transform: translateY(-200%);
+    animation-timing-function: ease-in;
+    opacity: .3;
+  }
+
+  20% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+
+  30% {
+    transform: translateY(-90%);
+    animation-timing-function: linear;
+  }
+
+  40%, 60%, 80%, 90%, to {
+    transform: translateY(0);
+    animation-timing-function: linear;
+  }
+
+  50% {
+    transform: translateY(-60%);
+    animation-timing-function: linear;
+  }
+
+  70% {
+    transform: translateY(-40%);
+    animation-timing-function: linear;
+  }
+
+  85% {
+    transform: translateY(-25%);
+    animation-timing-function: linear;
+  }
+
+  95% {
+    transform: translateY(-5%);
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+}
+
+@keyframes hopOut {
+  from, 20%, 50%, 80% {
+    transform: translateY(0%);
+  }
+
+  10% {
+    transform: translateY(-25%);
+  }
+
+  35% {
+    transform: translateY(-50%);
+  }
+
+  65% {
+    transform: translateY(-90%);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+}
+
+@keyframes speedInRight {
+  from {
+    transform: translateX(-200%) skewX(-30deg);
+    opacity: 0;
+  }
+
+  48% {
+    transform: skewX(-30deg);
+  }
+
+  62% {
+    transform: translateX(20%);
+  }
+
+  88% {
+    transform: translateX(-15%) skewX(15deg);
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes speedOutLeft {
+  22% {
+    transform: translateX(-20%) skewX(15deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-200%) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes speedOutRight {
+  22% {
+    transform: translateX(20%) skewX(-15deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(200%) skewX(-30deg);
+    opacity: 0;
+  }
+}
