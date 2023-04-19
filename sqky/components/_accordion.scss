@@ -1,30 +1,31 @@
 .accordion {
-  input:checked ~,
-  &[open] {
-    & .accordion-header > {
-      .icon:first-child {
-        transform: rotate(90deg);
+    input:checked ~,
+    &[open] {
+      & .accordion-header > {
+        .icon:first-child {
+          transform: rotate(90deg);
+        }
+      }
+  
+      & .accordion-body {
+        max-height: 50rem;
       }
     }
-
-    & .accordion-body {
-      max-height: 50rem;
+  
+    .accordion-header {
+      display: block;
+      padding: $base-padding $base-padding * 2;
+  
+      .icon {
+        transition: transform .25s;
+      }
+    }
+  
+    .accordion-body {
+      margin-bottom: 25px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .25s;
     }
   }
-
-  .accordion-header {
-    display: block;
-    padding: $base-padding $base-padding * 2;
-
-    .icon {
-      transition: transform .25s;
-    }
-  }
-
-  .accordion-body {
-    margin-bottom: 25px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .25s;
-  }
-}
+  
