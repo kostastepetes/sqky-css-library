@@ -1,31 +1,87 @@
+// Define some variables to customize the accordion
+$accordion-bg-color: #fff;
+$accordion-color: #333;
+$accordion-active-bg-color: #eee;
+$accordion-active-color: #555;
+
+// Define the accordion container styles
 .accordion {
-    input:checked ~,
-    &[open] {
-      & .accordion-header > {
-        .icon:first-child {
-          transform: rotate(90deg);
-        }
-      }
+width: 100%;
+background-color: $accordion-bg-color;
+color: $accordion-color;
+box-shadow: $base-box-shadow;
+border-radius: 4px;
+overflow: hidden;
+
+// Define the styles for each accordion item
+.accordion-item {
+border-bottom: 1px solid $accordion-color;
+&:last-child {
+  border-bottom: none;
+}
+
+// Define the styles for the accordion header
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $base-padding $base-padding * 2;
+  cursor: pointer;
   
-      & .accordion-body {
-        max-height: 50rem;
-      }
-    }
-  
-    .accordion-header {
-      display: block;
-      padding: $base-padding $base-padding * 2;
-  
-      .icon {
-        transition: transform .25s;
-      }
-    }
-  
-    .accordion-body {
-      margin-bottom: 25px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height .25s;
-    }
+  &:hover {
+    background-color: $accordion-active-bg-color;
+    color: $accordion-active-color;
   }
   
+  // Define the styles for the accordion title
+  .accordion-title {
+    font-size: $font-size-lg;
+    font-weight: bold;
+  }
+  
+  // Define the styles for the accordion icon
+  .accordion-icon {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+    
+    &.active {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+// Define the styles for the accordion content
+.accordion-content {
+  padding: $base-padding $base-padding * 2;
+  display: none;
+  
+  &.active {
+    display: block;
+  }
+}
+}
+}
+
+// Define the styles for different accordion colors
+@each $key, $val in $colors {
+.accordion-#{$key} {
+background-color: $val;
+color: #fff;
+// Invert active colors for better contrast
+$active-bg-color: adjust-color($val, $lightness: -15%);
+$active-color: #fff;
+
+.accordion-header:hover {
+  background-color: $active-bg-color;
+  color: $active-color;
+}
+
+.accordion-icon.active {
+  color: $active-color;
+}
+
+.accordion-content.active {
+  background-color: $active-bg-color;
+}
+}
+}
