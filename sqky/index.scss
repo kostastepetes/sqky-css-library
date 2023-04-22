@@ -6,7 +6,7 @@
 @import 'base';
 @import 'breakpoints';
 @import 'grid';
-@import 'labels';
+//@import 'labels';
 
 // colors
 @import "colors";
@@ -17,10 +17,10 @@
 @import 'components/navbar';
 @import 'components/badge';
 @import 'components/accordion';
-@import 'components/dropdown';
-@import 'components/breadcrumbs';
-@import 'components/codes';
-@import 'components/modals';
+//@import 'components/dropdown';
+//@import 'components/breadcrumbs';
+//@import 'components/codes';
+//@import 'components/modals';
 
 // utilities (margin, padding, opacity, etc)
 @import 'utilities';
