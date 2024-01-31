@@ -137,8 +137,8 @@ _For more examples, please refer to the [Documentation](https://github.com/kosta
 
 - [x] Add README
 - [x] Add Animations
-- [ ] Add more utilities
-- [ ] Add Additional Examples
+- [x] Add more utilities
+- [x] Add Additional Examples
 - [ ] Create npm library
 
 
