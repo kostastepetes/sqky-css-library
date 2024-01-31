@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kostastepetes/sqky-css-library">
-    <img src="img/logo.png" alt="Logo" width="300" height="300">
+    <img src="./example/img/logo.png" alt="Logo" width="300" height="300">
   </a>
 
   <h3 align="center">sqky.</h3>
@@ -121,6 +121,11 @@ Demo Website:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+* CDN
+  ```sh
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kostastepetes/sqky-css-library/classless/sqky-classless.min.css">
+  ```
+
 _For more examples, please refer to the [Documentation](https://github.com/kostastepetes/sqky-css-library)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,8 +187,8 @@ Project Link: [https://github.com/kostastepetes/sqky-css-library](https://github
 [issues-url]: https://github.com/kostastepetes/sqky-css-library/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kostas-tepetes
-[product-screenshot]: img/screenshot_docs.png
-[product-screenshot2]: img/screenshot_demo.png
+[product-screenshot]: ./example/img/screenshot_docs.png
+[product-screenshot2]: ./example/img/screenshot_demo.png
 [Sass]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
 [Sass-url]: https://sass-lang.com/
 [Gulp]: https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white
