@@ -19,7 +19,7 @@ function minifyCSS() {
 }
 
 function watchTask() {
- watch('classless/classless.css', minifyCSS)
+  watch(['sass/**/*.scss', '*.html', 'classless/classless.css'], series(buildStyles, minifyCSS))
 }
 
 exports.buildStyles = buildStyles;
