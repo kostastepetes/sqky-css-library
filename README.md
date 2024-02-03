@@ -121,9 +121,14 @@ Demo Website:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-* CDN
+* CDN (classless)
   ```sh
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kostastepetes/sqky-css-library/classless/sqky-classless.min.css">
+  ```
+
+  * CDN (css library)
+  ```sh
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kostastepetes/sqky-css-library/css/index.css">
   ```
 
 _For more examples, please refer to the [Documentation](https://github.com/kostastepetes/sqky-css-library)_
