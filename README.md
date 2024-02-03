@@ -126,7 +126,7 @@ Demo Website:
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kostastepetes/sqky-css-library/classless/sqky-classless.min.css">
   ```
 
-  * CDN (css library)
+* CDN (CSS library)
   ```sh
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kostastepetes/sqky-css-library/css/index.css">
   ```
