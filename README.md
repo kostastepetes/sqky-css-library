@@ -62,7 +62,7 @@ SQKY is a "squeaky clean" CSS library for elegant and efficient UIs made with SA
 
 Documentation Website: 
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/kostastepetes/sqky-css-library/blob/main/index.html)
+[![Product Name Screen Shot][product-screenshot]](https://sqky.netlify.app)
 
 Demo Website: 
 
